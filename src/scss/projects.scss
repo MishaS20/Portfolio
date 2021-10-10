@@ -1,0 +1,29 @@
+.projects {
+   padding: 50px 0;
+   &__wrapper {
+   }
+}
+
+.project {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 75px;
+   &__body {
+      max-width: 450px;
+   }
+
+   &__title {
+      font-size: 26px;
+   }
+
+   &__desc {
+      line-height: 1.6em;
+      font-size: 16px;
+      margin-top: 15px;
+   }
+
+   &__img {
+      width: 490px;
+      height: 331px;
+   }
+}

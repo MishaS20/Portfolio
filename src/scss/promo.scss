@@ -1,0 +1,78 @@
+.promo {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background-color: rgb(217, 228, 238);
+}
+.container {
+   padding: 0 10px;
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.profile {
+   display: flex;
+   margin-top: 50px;
+   margin-bottom: 30px;
+   &__desc {
+      flex-basis: 50%;
+   }
+
+   &__title {
+      font-family: Poppins;
+      font-weight: 900;
+      font-size: 90px;
+   }
+
+   &__subtitle {
+      font-family: Poppins;
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 50px;
+   }
+
+   &__text {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 27px;
+      color: #4a4a4a;
+      margin-top: 10px;
+   }
+
+   &__img {
+      flex-basis: 50%;
+      max-width: 480px;
+      max-height: 480px;
+      margin-left: 17px;
+      border-radius: 100%;
+   }
+
+   &__links {
+      margin-top: 15px;
+   }
+
+   &__link {
+      display: inline-block;
+      text-align: center;
+      border-radius: 10%;
+      width: 180px;
+      height: 70px;
+      background-color: rgb(143, 227, 253);
+      padding: 4% 0 0 0;
+      font-weight: 400;
+      font-size: 21px;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+   }
+   &__link:last-child {
+      margin-left: 15px;
+   }
+
+   .yel {
+      background-color: rgb(240, 215, 74);
+   }
+   &__link:hover {
+      animation: button-hov 1s linear infinite;
+   }
+}

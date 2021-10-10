@@ -1,0 +1,53 @@
+.contacts {
+   background-color: rgb(217, 228, 238);
+   padding: 50px 0;
+   &__title {
+   }
+
+   &__divider {
+   }
+
+   &__body {
+      margin-top: 50px;
+      display: flex;
+   }
+   &__username {
+      width: 200px;
+      padding: 10px;
+   }
+   &__username:active {
+      animation: form-hov 1s linear;
+   }
+   &__message {
+      width: 350px;
+      margin-top: 20px;
+      padding: 10px;
+      resize: none;
+      height: 200px;
+   }
+   &__message:active {
+      animation: form-hov 1s linear;
+   }
+
+   &__form {
+      flex-basis: 40%;
+   }
+   &__contant {
+      flex-basis: 40%;
+   }
+
+   &__title {
+      font-size: 26px;
+   }
+
+   &__descriprion {
+      line-height: 1.6em;
+      font-size: 16px;
+   }
+}
+
+.bd {
+   font-size: 15px;
+   border-radius: 3%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

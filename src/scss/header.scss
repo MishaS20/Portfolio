@@ -1,0 +1,41 @@
+body {
+   position: relative;
+}
+
+.wrap {
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 0;
+   align-items: center;
+}
+.header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   &__name {
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 40px;
+   }
+
+   &__navigate {
+   }
+
+   &__links {
+      display: flex;
+   }
+
+   &__link {
+      margin: 0 0 0 30px;
+      a {
+         color: #4a4a4a;
+      }
+      a:hover {
+         color: #968d8d;
+      }
+   }
+   &__link:first-child {
+      margin: 0;
+   }
+}

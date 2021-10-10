@@ -1,0 +1,36 @@
+.tit {
+   font-family: Poppins;
+   font-weight: 400;
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #252525;
+}
+
+.divid {
+   width: 220px;
+   height: 7px;
+   background: #f9bf3b;
+   margin: 0 auto;
+   margin-top: 7px;
+}
+
+.button {
+   letter-spacing: 2px;
+   margin-top: 15px;
+   padding: 15px;
+   font-size: 15px;
+   border-radius: 10%;
+   color: rgb(255, 255, 255);
+   background-color: rgb(241, 90, 90);
+}
+.button:hover {
+   animation: subm-hov 1s linear infinite;
+}
+.git {
+   margin-top: 10px;
+   color: rgb(0, 0, 0);
+}
+.git::before {
+   margin-right: 15px;
+}
