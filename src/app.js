@@ -1,11 +1,10 @@
 
-import './scss/zeroing.scss';
-
-import "./scss/general.scss";
-import "./scss/header.scss";
-import "./scss/promo.scss";
-import "./scss/contacts.scss";
-import "./scss/projects.scss";
-import "./scss/animation.scss";
-import "./scss/footer.scss";
-import './scss/media.scss';
+import './zeroing.scss';
+import "./general.scss";
+import "./header.scss";
+import "./promo.scss";
+import "./contacts.scss";
+import "./projects.scss";
+import "./animation.scss";
+import "./footer.scss";
+import './media.scss';
